@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 class UnicornSpider(scrapy.Spider):
     name = "unicorn_"
     allowed_domains = ["shop.unicornstore.in"]
-    start_urls = ["https://shop.unicornstore.in/product/iphone-15-black-128-gb"]
+    start_urls = ["https://shop.unicornstore.in/product/iphone-15-blue-128-gb"]
 
     custom_settings = {
         "TWISTED_REACTOR": "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
